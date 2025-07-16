@@ -37,6 +37,7 @@ expense-tracker-api/
 ├── controller/           # REST API controller
 ├── dto/                  # Data Transfer Object
 ├── entity/               # Các thực thể JPA
+├── enumeration           # Các enum
 ├── exception/            # Xử lý lỗi
 ├── repository/           # Tầng tương tác DB
 ├── security/             # JWT Filter và cấu hình
