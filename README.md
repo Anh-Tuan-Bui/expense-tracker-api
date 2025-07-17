@@ -78,7 +78,7 @@ expense-tracker-api/
    `git clone https://github.com/Anh-Tuan-Bui/blog-api.git`
 2. Mở project trong IntelliJ
 3. Cấu hình file src/main/resources/application.yml theo MySQL của bạn
-4. Chạy file BlogApiApplication.java
+4. Chạy file ExpenseTrackerApplication.java
 
 #### Chạy thủ công
 ```bash
