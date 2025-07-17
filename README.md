@@ -73,9 +73,11 @@ expense-tracker-api/
 - Docker (tuỳ chọn)
 
 ### 2. Clone và chạy dự án
-#### Chạy bằng IntelliJ
+#### Chạy bằng IntelliJ / VScode
 1. Clone repo:
-   `git clone https://github.com/Anh-Tuan-Bui/blog-api.git`
+  ```bash
+    git clone https://github.com/Anh-Tuan-Bui/expense-tracker-api.git
+  ```
 2. Mở project trong IntelliJ
 3. Cấu hình file src/main/resources/application.yml theo MySQL của bạn
 4. Chạy file ExpenseTrackerApplication.java
