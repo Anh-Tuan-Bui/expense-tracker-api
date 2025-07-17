@@ -123,7 +123,8 @@ POST /api/auth/login
 → Trả về access token (JWT)
 
 ### 💸 3. Tạo chi tiêu
-```POST /api/expenses
+```http
+POST /api/expenses
 Authorization: Bearer <JWT>
 {
   "amount": 300000,
@@ -134,7 +135,7 @@ Authorization: Bearer <JWT>
 ```
 
 ### 📊 4. Lọc chi tiêu theo khoảng thời gian
-```
+```http
 GET /api/expenses?startDate=2025-06-16&endDate=2025-07-16
 ```
 
